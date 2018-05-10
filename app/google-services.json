@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "505694337493",
+    "firebase_url": "https://pokemunity-7fec5.firebaseio.com",
+    "project_id": "pokemunity-7fec5",
+    "storage_bucket": "pokemunity-7fec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505694337493:android:dc57204967694dd5",
+        "android_client_info": {
+          "package_name": "com.dreaminreality.ranad_000.pokemunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505694337493-0vm2419ilsi7efr6ilfl9e3hevdi358p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreaminreality.ranad_000.pokemunity",
+            "certificate_hash": "05c2b7e4ef6f7ffead3222d5ecb045a8e68bb0ae"
+          }
+        },
+        {
+          "client_id": "505694337493-he3k78qidkualavm24gp77eur924pfli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLV4-CkGCSv0Vonwhw8FppIhRRp_5ksoU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505694337493-he3k78qidkualavm24gp77eur924pfli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
