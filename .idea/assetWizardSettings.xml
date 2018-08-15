@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="63" />
+                                                <entry key="scalingPercent" value="50" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -34,8 +34,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="foregroundImage" value="C:\Users\ranad_000\AndroidStudioProjects\Pokemunity\app\src\main\res\drawable\pokemunitylogo.png" />
-                                      <entry key="outputName" value="pokemunity_logo" />
+                                      <entry key="foregroundImage" value="C:\Users\ranad_000\AndroidStudioProjects\Pokemunity\app\src\main\res\drawable\pokedex_dexter.png" />
+                                      <entry key="outputName" value="pokedex_dexter" />
                                     </map>
                                   </option>
                                 </PersistentState>

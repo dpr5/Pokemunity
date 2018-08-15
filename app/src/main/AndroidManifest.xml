@@ -17,10 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".MainActivity" />
         <activity
-            android:name=".Main4Activity"
-            android:label="@string/title_activity_main4"
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
