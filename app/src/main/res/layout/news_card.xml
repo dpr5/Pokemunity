@@ -14,50 +14,44 @@
         card_view:cardElevation="5dp"
         card_view:cardUseCompatPadding="true">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/card_image"
                 android:tag="image_tag"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="25dp"
                 android:src="@drawable/ic_launcher_background"/>
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:layout_weight="2"
-                android:orientation="vertical"
-                >
+
 
                 <TextView
-                    android:id="@+id/textViewName"
+                    android:id="@+id/card_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/card_image"
+                    android:layout_marginTop="25dp"
                     android:text="Android Name"
+                    android:textColor="@color/white"
                     android:textAppearance="?android:attr/textAppearanceLarge"/>
 
                 <TextView
-                    android:id="@+id/textViewVersion"
+                    android:id="@+id/card_content"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-
-                    android:text="Android Version"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:text="@string/card_content"
+                    android:layout_below="@+id/card_image"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
 
-            </LinearLayout>
-        </LinearLayout>
+        </RelativeLayout>
 
     </android.support.v7.widget.CardView>
 
